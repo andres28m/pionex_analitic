@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pionex Analitic</title>
+    <style>
+    /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #00172b;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>  
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container" style="height:100%;width:100%">
+    <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+    {
+    "width": "100%",    
+    "max-width": "980",
+    "height": "640",
+    "symbol": "PIONEX:BTCUSDT.P",
+    "interval": "60",
+    "timezone": "Etc/UTC",
+    "theme": "dark",
+    "style": "1",
+    "locale": "en",
+    "withdateranges": true,
+    "hide_side_toolbar": false,
+    "allow_symbol_change": true,
+    "save_image": false,
+    "watchlist": [
+      "PIONEX:BTCUSDT.P",
+      "PIONEX:ETHUSDT.P",
+      "PIONEX:SOLUSDT.P",
+      "PIONEX:SUIUSDT.P",
+      "PIONEX:BNBUSDT.P",
+      "PIONEX:FTMUSDT.P",
+      "PIONEX:AAVEUSDT.P",
+      "PIONEX:LTCUSDT.P",
+      "PIONEX:ADAUSDT.P",
+      "PIONEX:PEPEUSDT.P",
+      "PIONEX:SHIBUSDT.P",
+      "PIONEX:DOGEUSDT.P",
+      "PIONEX:INJUSDT.P",
+      "PIONEX:RVNUSDT.P",
+      "PIONEX:RUNEUSDT.P",
+      "PIONEX:MKRUSDT.P",
+      "PIONEX:POPCATUSDT.P",
+      "PIONEX:TONUSDT.P",
+      "PIONEX:DOGSUSDT.P",
+      "PIONEX:LINKUSDT.P",
+      "PIONEX:UNIUSDT.P",
+      "PIONEX:APTUSDT.P",
+      "PIONEX:WIFUSDT.P",
+      "PIONEX:TRXUSDT.P",
+      "PIONEX:LQTYUSDT.P",
+      "PIONEX:SUPERUSDT.P",
+      "PIONEX:ARKUSDT.P"
+    ],
+    "details": true,
+    "hotlist": true,
+    "calendar": false,
+    "studies": [
+      "STD;DEMA",
+      "STD;MA%1Cross",
+      "STD;SMA",
+      "STD;Divergence%1Indicator"
+      
+    ],
+    "support_host": "https://www.tradingview.com"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+</body> 
+</html>
